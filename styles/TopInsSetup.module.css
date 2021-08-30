@@ -1,0 +1,10 @@
+.instructionSetup {
+  border: 2px solid white;
+  border-radius: 15px;
+  height: 30%;
+  max-width: 80%;
+  min-width: 80%;
+  padding: 1rem;
+  margin-top: 10px;
+  overflow: hidden;
+}

@@ -1,0 +1,28 @@
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 260px;
+  /* width: 10rem;
+  height: 20rem */
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.teamContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.personInfo {
+  padding: 5px;
+  font-size: 24px;
+}
+
+.topInfo {
+  margin-top: 14px;
+}
