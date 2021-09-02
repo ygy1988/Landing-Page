@@ -8,7 +8,7 @@ const Person = ({ name, work, linkedIn, gitHub }) => {
       <div className={`${classes.personInfo} ${classes.topInfo}`}>{name}</div>
       <div className={classes.personInfo}>{work}</div>
       <div className={classes.personInfo}>
-        {linkedIn}| {gitHub}
+        {linkedIn} | {gitHub}
       </div>
     </div>
   );
