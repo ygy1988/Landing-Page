@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 75%;
+    width: 75%;
+    color: white;
+  }
+
+  .pHeader {
+      font-size: 24px;
+      /* margin-bottom: 2px; */
+      margin: 0;
+  }
+
+  .p {
+      font-size:19px;
+      margin: 0;
+      padding: 2px;
+  }
+
+  .p span {
+      color: #4ddd68;
+  }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import classes from "../styles/Header.module.css";
 import {Link as Scroll} from "react-scroll";
+import Image from 'next/image'
 
 const Header = () => {
   return (

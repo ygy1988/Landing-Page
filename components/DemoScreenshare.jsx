@@ -7,8 +7,8 @@ const DemoScreenshare = () => {
       <Image
         src="https://raw.githubusercontent.com/axilleasiv/vscode-javascript-repl-docs/master/vscode-javascript-repl.gif"
         alt="GIF of Next-Step Demo"
-        width="400px"
-        height="400px"
+        width="600px"
+        height="289px"
       />
     </div>
   );

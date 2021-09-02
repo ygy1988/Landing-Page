@@ -2,7 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Karla", sans-serif;
+  font-family: 'Inter', "Karla", sans-serif;
+  background: linear-gradient(to right, #e0e0e0, rgb(240, 240, 240));
 }
 
 a {

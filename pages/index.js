@@ -17,6 +17,7 @@ export default function Home() {
         <style>
           @import
           url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Inter&family=Yantramanav:wght@400&display=swap');
         </style>
       </Head>
       <Header />

@@ -9,7 +9,7 @@ const TopTitleDescription = () => {
       <h1 className={classes.heading}>Next Step</h1>
         
       <h1 className={classes.underHeading}>
-       Actionable metrics in your developer's console to improve your site's performance
+       Actionable metrics to guide your site-improvement decisions
       </h1>
       </div>
       <div className={classes.mainImage}>

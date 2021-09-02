@@ -4,15 +4,19 @@ import SetupScreenshare from "../components/SetupScreenshare";
 
 const SetupInsContainer = () => {
   return (
+    <>
+    <div className={classes.title}>
+      <h2>SETUP INSTRUCTIONS</h2>
+    </div>
     <div className={classes.container}>
       <div className={classes.left}>
-        <SetupScreenshare />
         <SetupScreenshare />
       </div>
       <div className={classes.right}>
         <SetupWritten />
       </div>
     </div>
+    </>
   );
 };
 

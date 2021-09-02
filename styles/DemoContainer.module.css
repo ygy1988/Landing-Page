@@ -1,7 +1,18 @@
 .demoContainer {
   display: flex;
   justify-content: space-evenly;
+  font-family: 'Karla' !important;
+  text-align: justify;
+  background: linear-gradient(to right, #e0e0e0, rgb(240, 240, 240));
   align-items: center;
-  height: 700px;
+  height: 500px;
   width: 100%; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 120px;
 }

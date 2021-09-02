@@ -4,11 +4,8 @@
   align-items: center;
   height: 500px;
   width: 100%;
-  background: #c9d6ff; /* fallback for old browsers */
-  background: linear-gradient(
-    to right,
-    #e2e2e2,
-    #c9d6ff)
+  background: #232526; 
+  background: linear-gradient(to right, #232526, black);
 }
 
 .teamIntro {

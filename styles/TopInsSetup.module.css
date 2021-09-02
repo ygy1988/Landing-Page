@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid white;
   border-radius: 15px;
   height: 30%;
   max-width: 80%;
@@ -12,28 +11,25 @@
   overflow: hidden;
 }
 
-.codeBtn {
-  background-color: black;
-  border-color: rgb(58, 171, 241);
-  color: rgb(58, 171, 241);
-  font-size: 19;
-  width: 220px;
-  height: 50px;
+.codeBtn, .npmBtn {
+  background-color: rgba(255, 255, 255, 0.97);
+  color: rgba(0, 0, 0, 0.8);
+  border-style: none;
+  font-size: 14px;
+  width: 15rem;
+  min-height: 3.5rem;
   font-weight: bold;
-  border-radius: 0.4rem;
+  border-radius: 2rem;
+  margin-bottom: 10px;
 }
 
-.npmBtn {
-  margin-top: 10px;
-  background-color: grey;
-  border-color: white;
+.codeBtn:hover, .npmBtn:hover {
+  background-color: #3caf51;
   color: white;
-  font-size: 19;
-  width: 220px;
-  height: 50px;
-  border-radius: 0.4rem;
+  cursor: pointer;
 }
 
-.setupInstructions {
-
+.instructionSetup p:hover {
+  cursor: pointer;
+  color: #4ddd68;
 }

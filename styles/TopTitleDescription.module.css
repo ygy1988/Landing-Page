@@ -2,13 +2,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   width: 80%;
-  height: 50%;
+  height: 55%;
   background-color: transparent; /* fallback for old browsers */
   padding: 1rem 2rem;
   border-radius: 30px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   font-size: 18px;
   text-align: center;
   max-width: 80%;
@@ -17,7 +15,7 @@
 }
 
 .mainImage {
-  margin-top: 4rem;
+  padding-top: 3rem;
 }
 
 .containerLeft {
@@ -29,5 +27,5 @@ justify-content: flex-start;
 
 .heading {
   margin: 0;
-  font-size: 4rem;
+  font-size: 5rem;
 }
