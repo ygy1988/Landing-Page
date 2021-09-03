@@ -3,9 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 75%;
-    width: 75%;
+    text-align: center;
+    height: 100%;
+    width: 100%;
     color: white;
+  }
+
+  .container p {
+    font-size:19px;
+    margin: 0;
+    padding: 2px;
+    width: 100%;
+  }
+
+  .container span {
+    color: #4ddd68;
   }
 
   .pHeader {
@@ -14,12 +26,11 @@
       margin: 0;
   }
 
-  .p {
-      font-size:19px;
-      margin: 0;
-      padding: 2px;
-  }
-
-  .p span {
-      color: #4ddd68;
+  .centerText {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
   }

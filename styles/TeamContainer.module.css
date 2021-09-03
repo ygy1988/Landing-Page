@@ -13,3 +13,22 @@
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 994px) {
+  .teamContainer{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 950px;
+    /* justify-content: space-between; */
+  }
+}
+@media screen and (max-width: 518px) {
+  .teamContainer{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 1750px;
+    /* justify-content: space-between; */
+  }
+}

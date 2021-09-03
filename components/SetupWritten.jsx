@@ -5,24 +5,33 @@ const SetupWritten = () => {
 
   
   <br />
-  <p className={classes.p}>Step 1: Download the VS Code extension from the Extension Marketplace(link)</p>
+  <p>Step 1: Download the VS Code extension from the Extension Marketplace(link).</p>
   <br />
-  <p className={classes.p}>Step 2: Install the npm package by running <span>npm install next-step-up-your-game</span></p>
+  <p>Step 2: Install the npm package by running <span>npm install next-step-metrics.</span></p>
   <br />
-  <p className={classes.p}>Step 3: Go to your _app.js file, and copy/paste the following commands:</p>
+  <p>Step 3: Go to your _app.js file, and copy/paste the following commands:</p>
   <br />
-  <p className={classes.p}>--> At the top of the file:</p>
-  <p className={classes.p}><span>import reportWebVitals from "next-step-npm"</span></p>
-  <p className={classes.p}>--> At the bottom of the file:</p>
-  <p className={classes.p}><span>export reportWebVitals</span></p>
+  <p> --&gt; At the top of the file:</p>
+  <p><span className={classes.centerText}>import &#123; reportWebVitals &#125; from &quot;next-step-npm&quot;</span></p>
+  <p> --&gt; At the bottom of the file:</p>
+  <p><span className={classes.centerText}>export  &#123; reportWebVitals &#125;</span></p>
   <br />
-  <p className={classes.p}>Step 4: Create a new API route named <span>nextStep</span> inside your pages folders and copy this block of code.</p>
+  <p>Step 4: Create a file named <span>next-step.js</span> inside your pages/api folder and copy this: </p>
   <br />
-  <p className={classes.p}>NEED TO PUT CODE BLOCKS HERE</p>
+  <span className={classes.centerText}>
+  <p>import nc from &quot;next-connect&quot;;</p>
+  <p>import &#123; metrics &#125; from &quot;next-step-metrics&quot;;</p>
   <br />
-  <p className={classes.p}>Step 5: Start up your server and click on the NextStep button in the VS Code Status Bar</p>
+  <p>const handler = nc().post((req, res) =&gt; &#123;</p>
+  <p>&emsp;return metrics(req, res);</p>
+  <p>&#125;);</p>
   <br />
-  <p className={classes.p}>Step 6: Optimize  your site and enjoy 😎</p>
+  <p>export default handler;</p>
+  </span>
+  <br />
+  <p>Step 5: Start up your server and click on the NextStep button in the VS Code Status Bar.</p>
+  <br />
+  <p>Step 6: Optimize  your site and enjoy 😎</p>
   </div>;
 };
 

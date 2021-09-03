@@ -3,7 +3,29 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  height: 75%;
-  width: 35%;
+  max-height: 90%;
+  width: 600px;
+  padding-bottom: 5rem;
+}
+
+.demoWritten a {
+  color: #1c73c5;
+}
+
+
+@media screen and (min-width: 1700px) {
+  .demoWritten {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 1112px) {
+  .demoWritten {
+    display: flex;
+    margin: 0;
+    font-size: 0.9rem;
+    width: 600px;
+    padding-bottom: 0rem;
+  }
 }
 

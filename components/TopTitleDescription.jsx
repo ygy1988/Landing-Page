@@ -8,9 +8,9 @@ const TopTitleDescription = () => {
       <div className={classes.containerLeft}>
       <h1 className={classes.heading}>Next Step</h1>
         
-      <h1 className={classes.underHeading}>
-       Actionable metrics to guide your site-improvement decisions
-      </h1>
+      <h2 className={classes.underHeading}>
+       Actionable metrics to guide your Next.js development decisions.
+      </h2>
       </div>
       <div className={classes.mainImage}>
       <Image
@@ -19,6 +19,7 @@ const TopTitleDescription = () => {
         width="754px"
         height="210px"
       />
+      <h3>Next Step is a VS Code Extension that displays your website&apos;s Web Vitals directly into your console as you develop -- providing actionable data in real-time to guide your site-performance decisions.</h3>
       </div>
       {/* <h3>
         Lorem Ipsum is simply dummy text of the printing and typesetting

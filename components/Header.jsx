@@ -9,8 +9,8 @@ const Header = () => {
       <div className={classes.leftHeader}>
         NextStep
         <div className={classes.demoSetup}>
-          <Link href="/" passHref={true}><Scroll to="DemoContainer_demoContainer__3sCL7" spy={true} smooth={true}>Demo</Scroll></Link>
-          <Link href="/" passHref={true}><Scroll to="SetupInsContainer_container__2dP5H" spy={true} smooth={true}>Setup</Scroll></Link>
+          <Link href="/" passHref={true}><Scroll to="DemoContainer_title__1hInB" spy={true} smooth={true}>Demo</Scroll></Link>
+          <Link href="/" passHref={true}><Scroll to="SetupInsContainer_title__3wozo" spy={true} smooth={true}>Setup</Scroll></Link>
         </div>
       </div>
       <div className={classes.navigation}>

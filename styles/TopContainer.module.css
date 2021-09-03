@@ -1,20 +1,19 @@
 .topContainer {
-  height: 900px;
+  height: 1250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   color: rgba(255, 255, 255, 1);
   background: #232526; 
-  background: linear-gradient(to right, #232526, black);
+  background: linear-gradient(to right, #232526, rgb(8, 8, 8));
 }
 
-@media screen and (max-width: 1800px) {
+@media screen and (max-width: 1700px) {
   .topContainer {
-    height: 950px;
+    height: 1000px;
 
   }
 }
 /* #4b6cb7 */
 /* #182848 */
-
