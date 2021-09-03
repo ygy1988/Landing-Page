@@ -5,8 +5,9 @@ import Image from "next/image";
 const TopTitleDescription = () => {
   return (
     <div className={classes.titleContainer}>
-      <div className={classes.containerLeft}>
-      <h1 className={classes.heading}>Next Step</h1>
+      <Image src="https://i.ibb.co/QFc8z6K/Screen-Shot-2021-09-03-at-7-26-51-PM.png" alt="Next Step Logo" width="550px" height="398px"></Image>
+      <div className={classes.containerLeft}>  
+      {/* <h1 className={classes.heading}>Next Step</h1> */}
         
       <h2 className={classes.underHeading}>
        Actionable metrics to guide your Next.js development decisions.

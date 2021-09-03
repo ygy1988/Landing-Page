@@ -5,8 +5,8 @@
   align-items: center;
   justify-content: space-evenly;
   color: rgba(255, 255, 255, 1);
-  background: #232526; 
-  background: linear-gradient(to right, #232526, rgb(8, 8, 8));
+  background: black; 
+  /* background: linear-gradient(to right, #232526, rgb(8, 8, 8)); */
 }
 
 @media screen and (max-width: 1700px) {

@@ -7,7 +7,7 @@ const DemoWritten = () => {
       <h2>
         {' '}
         As the developer refreshes the page in their development environment —
-        Next Step pulls downs your site's performance metrics and displays them
+        Next Step pulls downs your site&apos;s performance metrics and displays them
         directly in your IDE.
       </h2>
 
