@@ -2,8 +2,10 @@ import classes from "../styles/TopTitleDescription.module.css";
 import TopInsSetup from "./TopInsSetup";
 import Image from "next/image";
 
+
 const TopTitleDescription = () => {
   return (
+    <>
     <div className={classes.titleContainer}>
       <div className={classes.logoImage}>
       <Image src="https://i.ibb.co/0csqNyQ/logo-nobackground-5000.png" alt="Next Step Logo" width="300px" height="300px" quality="100" placeholder="blur" blurDataURL="empty"></Image>
@@ -13,14 +15,21 @@ const TopTitleDescription = () => {
       <h2 className={classes.underHeading}>
        Actionable metrics to guide your Next.js development decisions.
       </h2>
+      <button className={classes.codeBtn}> 
+      Download VS Code Extension
+      </button>
+      <button className={classes.npmBtn}>NPM Install Next-Step</button>
+       </div>
       </div>
       <div className={classes.mainImage}>
-      <Image
-        src="https://i.ibb.co/L9250tV/next-step-output.png"
-        alt="GIF of Next-Step Demo"
-        width="754px"
-        height="210px"
-      />
+      {/* <Image
+        src="https://i.ibb.co/QdJqL3W/image-1.png"
+        alt="Image of Next-Step Output"
+        width="370px"
+        height="170px"
+        layout="fixed"
+        id={classes.imageId}
+      /> */}
       <h3>Next Step is a VS Code Extension that displays your website&apos;s Web Vitals directly into your console as you develop -- providing actionable data in real-time to guide your site-performance decisions.</h3>
       </div>
       {/* <h3>
@@ -30,7 +39,7 @@ const TopTitleDescription = () => {
         scrambled it to make a type specimen book.
       </h3> */}
       {/* <TopInsSetup /> */}
-   </div>
+      </>
   );
 };
 

@@ -10,7 +10,7 @@ const TopContainer = () => {
       <TopTitleDescription />
      
    
-      <TopInsSetup />
+      {/* <TopInsSetup /> */}
     
     </div>
   );
