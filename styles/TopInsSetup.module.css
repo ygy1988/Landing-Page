@@ -7,7 +7,6 @@
   max-width: 80%;
   min-width: 80%;
   padding: 1rem;
-  margin-top: 50px;
   overflow: hidden;
   font-family: 'Karla';
   font-size: 1.1rem;
@@ -26,12 +25,29 @@
 }
 
 .codeBtn:hover, .npmBtn:hover {
-  background-color: #3caf51;
+  animation: background-color-change 8s infinite;
   color: white;
   cursor: pointer;
 }
 
+.instructionSetup p {
+  font-size: 2rem;
+}
+
 .instructionSetup p:hover {
   cursor: pointer;
-  color: #4ddd68;
+  color: #5DB3FF;
+  animation: color-change-reverse 8s infinite;
+}
+
+@keyframes background-color-change {
+  0% { background-color: rgb(105, 181, 252); }
+  50% { background-color: rgb(219, 87, 219); }
+  100% { background-color: rgb(105, 181, 252); }
+}
+
+@keyframes color-change-reverse {
+  0% { color: rgb(105, 181, 252); }
+  50% { color: rgb(219, 87, 219); }
+  100% { color: rgb(105, 181, 252); }
 }

@@ -5,7 +5,7 @@ import {Link as Scroll} from "react-scroll";
 const TopInsSetup = () => {
   return (
     <div className={classes.instructionSetup}>
-      <h2>Download our VS Code Extension and install our NPM Package to get started!</h2>
+      {/* <h2>Download our VS Code Extension and install our NPM Package to get started!</h2> */}
       <button className={classes.codeBtn}> 
       Download VS Code Extension
       </button>
