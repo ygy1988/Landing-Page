@@ -17,24 +17,37 @@
 }
 
 .logoImage h1 {
-  font-family: 'Bungee';
+  font-family: "Bungee";
   font-size: 8rem;
   color: rgb(105, 181, 252);
 }
 
 @keyframes color-change {
-  0% { color: rgb(219, 87, 219); }
-  50% { color: rgb(105, 181, 252); }
-  100% { color: rgb(219, 87, 219); }
+  0% {
+    color: rgb(219, 87, 219);
+  }
+  50% {
+    color: rgb(105, 181, 252);
+  }
+  100% {
+    color: rgb(219, 87, 219);
+  }
 }
 
 @keyframes color-change-reverse {
-  0% { color: rgb(105, 181, 252); }
-  50% { color: rgb(219, 87, 219); }
-  100% { color: rgb(105, 181, 252); }
+  0% {
+    color: rgb(105, 181, 252);
+  }
+  50% {
+    color: rgb(219, 87, 219);
+  }
+  100% {
+    color: rgb(105, 181, 252);
+  }
 }
 
-.codeBtn, .npmBtn {
+.codeBtn,
+.npmBtn {
   background-color: rgba(255, 255, 255, 0.97);
   color: rgba(0, 0, 0, 0.8);
   border-style: none;
@@ -46,17 +59,23 @@
   margin-bottom: 10px;
 }
 
-.codeBtn:hover, .npmBtn:hover {
+.codeBtn:hover,
+.npmBtn:hover {
   background-color: rgb(105, 181, 252);
   cursor: pointer;
 }
 
 @keyframes background-color-change {
-  0% { background-color: rgb(105, 181, 252); }
-  50% { background-color: rgb(219, 87, 219); }
-  100% { background-color: rgb(105, 181, 252); }
+  0% {
+    background-color: rgb(105, 181, 252);
+  }
+  50% {
+    background-color: rgb(219, 87, 219);
+  }
+  100% {
+    background-color: rgb(105, 181, 252);
+  }
 }
-
 
 .mainImage {
   display: flex;
@@ -66,11 +85,11 @@
   width: 100%;
   height: 300px;
   background-color: linear-gradient(to right, #232526, rgb(8, 8, 8));
-  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='278' height='278' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(124)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 32, 44,0)'/%3E%3Cpath d='M-10 7h60v2h-60z' fill='rgba(45, 55, 72,0)'/%3E%3Cpath d='M-10 47h60v2h-60z' fill='rgba(45, 55, 72,0)'/%3E%3Cpath d='M-10 29.5h60v1h-60z' fill='rgba(33, 33, 33,1)'/%3E%3Cpath d='M29.5-10v60h1v-60z' fill='rgba(33, 33, 33,1)'/%3E%3Cpath d='M9-10v60h2v-60z' fill='rgba(45, 55, 72,0)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='278' height='278' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(124)'%3E%3Crect width='100%25' height='100%25' fill='rgba(26, 32, 44,0)'/%3E%3Cpath d='M-10 7h60v2h-60z' fill='rgba(45, 55, 72,0)'/%3E%3Cpath d='M-10 47h60v2h-60z' fill='rgba(45, 55, 72,0)'/%3E%3Cpath d='M-10 29.5h60v1h-60z' fill='rgba(33, 33, 33,1)'/%3E%3Cpath d='M29.5-10v60h1v-60z' fill='rgba(33, 33, 33,1)'/%3E%3Cpath d='M9-10v60h2v-60z' fill='rgba(45, 55, 72,0)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
 }
 
 .mainImage h3 {
-  font-family: 'Karla';
+  font-family: "Karla";
   font-size: 29px;
   margin: auto;
   width: 50%;
@@ -79,13 +98,12 @@
   padding: 40px;
 }
 
-
 .containerLeft {
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: flex-start;
-padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 50px;
 }
 
 .heading {
@@ -98,6 +116,6 @@ padding-bottom: 50px;
   justify-content: center;
   margin-top: -10px;
   margin-left: 10px;
-  font-family: 'Karla';
+  font-family: "Karla";
   font-size: 2.5rem;
 }
