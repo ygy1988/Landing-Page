@@ -2,7 +2,26 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 65px;
   width: 100%;
-  font-size: 3rem;
+  font-size: 1.3rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 1250px */
+   flex-wrap: wrap;
+   height: 75px;
+  }
+ }
+@media screen and (max-width: 473px) {
+  .footer {
+    display: flex;
+    /* flex-direction: column; */
+    /* height: 1250px */
+   flex-wrap: wrap;
+   height: 120px;
+  }
+ }

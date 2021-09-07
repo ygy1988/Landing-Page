@@ -1,13 +1,33 @@
 .demoContainer {
   display: flex;
   justify-content: space-evenly;
+  font-family: 'Karla' !important;
+  text-align: justify;
+  background: linear-gradient(to right, #e0e0e0, rgb(240, 240, 240));
   align-items: center;
   height: 700px;
   width: 100%;
-  background: #c9d6ff; /* fallback for old browsers */
-  background: linear-gradient(
-    to right,
-    #e2e2e2,
-    #c9d6ff
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  height: 120px;
+}
+
+@media screen and (max-width: 1112px) {
+  .demoContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    /* overflow: auto; */
+    height: 700px;
+  }
+
+  .title {
+    height: 80px;
+  }
 }
