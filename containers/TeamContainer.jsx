@@ -38,9 +38,9 @@ const TeamContainer = () => {
           work="Software Engineer"
           linkedIn="LinkedIn"
           gitHub="GitHub"
-          image="https://i.ibb.co/V26BnD2/Kenny-Pic.jpg"
-          width="500px"
-          height="500px"
+          image="https://i.ibb.co/QfDVVhy/Screen-Shot-2021-09-07-at-3-17-40-PM.png"
+          width="346px"
+          height="309px"
         />
       </div>
     </>
