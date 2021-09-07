@@ -4,21 +4,31 @@
   align-items: center;
   height: 500px;
   width: 100%;
-  background: #1488cc; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2b32b2,
-    #1488cc
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2b32b2,
-    #1488cc
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #232526; 
+  background: linear-gradient(to right, #232526, black);
 }
 
 .teamIntro {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 994px) {
+  .teamContainer{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 950px;
+    /* justify-content: space-between; */
+  }
+}
+@media screen and (max-width: 518px) {
+  .teamContainer{
+    display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   height: 1750px;
+    /* justify-content: space-between; */
+  }
 }
