@@ -1,18 +1,19 @@
 import classes from "../styles/SetupWritten.module.css";
+import Link from 'next/link'
 
 const SetupWritten = () => {
   return <div className={classes.container}>
 
   
   <br />
-  <p>STEP 1: Download the VS Code extension from the Extension Marketplace(link).</p>
+  <p>STEP 1: Download the VS Code extension from the<Link href="https://marketplace.visualstudio.com/items?itemName=NextStep.nextstep"><a target="_blank"> Extension Marketplace</a></Link>.</p>
   <br />
   <p>STEP 2: Install the npm package by running <span>npm install next-step-metrics.</span></p>
   <br />
   <p>STEP 3: Go to your _app.js file, and copy/paste the following commands:</p>
   <br />
   <p> --&gt; At the top of the file:</p>
-  <p><span className={classes.centerText}>import &#123; reportWebVitals &#125; from &quot;next-step-npm&quot;</span></p>
+  <p><span className={classes.centerText}>import &#123; reportWebVitals &#125; from &quot;next-step-metrics&quot;</span></p>
   <p> --&gt; At the bottom of the file:</p>
   <p><span className={classes.centerText}>export  &#123; reportWebVitals &#125;</span></p>
   <br />

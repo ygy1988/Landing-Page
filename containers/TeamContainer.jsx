@@ -18,8 +18,8 @@ const TeamContainer = () => {
         <Person
           name="Lucas Taffo"
           work="Software Engineer"
-          linkedIn="LinkedIn"
-          gitHub="GitHub"
+          linkedIn=" https://www.linkedin.com/in/lucastaffo/"
+          gitHub="https://github.com/lucastaffo"
           image="https://i.ibb.co/Kj8s4Kz/Screen-Shot-2021-09-02-at-5-01-30-PM.png"
           width="460px"
           height="591px"

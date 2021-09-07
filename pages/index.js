@@ -14,11 +14,14 @@ export default function Home() {
     <Fragment>
       <Head>
         <title>Next Step</title>
+        <meta 
+name="description" 
+content="VS Code Extension that prints out web vital metrics in your code editor" 
+/> 
         <style>
           @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
-          @import
-          url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&display=swap');
           @import url('https://fonts.googleapis.com/css2?family=Inter&family=Yantramanav:wght@400&display=swap');
         </style>
       </Head>

@@ -8,14 +8,19 @@
   }
 
   .container p {
+    /* font-family: sans-serif;
+    font-weight: lighter; */
+    font-family: 'Karla';
+    font-weight: 300;
     font-size: 25px;
-    margin: 0;
+    margin: 5px;
     padding: 2px;
-    width: 1100px;
+    width: 1000px;
   }
 
   .container span {
-    color: #4ddd68;
+    margin: 0 !important;
+    color: #6cadeb;
   }
 
   .pHeader {
@@ -29,4 +34,8 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+  }
+
+  .container a {
+    color: #6cadeb;
   }
