@@ -9,8 +9,9 @@ const DemoContainer = () => {
     <h2>DEMO</h2>
     </div>
     <div className={classes.demoContainer}>
-      <DemoWritten />
       <DemoScreenshare />
+      <DemoWritten />
+      
     </div>
     </>
   );

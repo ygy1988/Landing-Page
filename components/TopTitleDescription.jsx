@@ -1,6 +1,7 @@
 import classes from "../styles/TopTitleDescription.module.css";
 import TopInsSetup from "./TopInsSetup";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const TopTitleDescription = () => {
@@ -15,10 +16,14 @@ const TopTitleDescription = () => {
       <h2 className={classes.underHeading}>
        Actionable metrics to guide your Next.js development decisions.
       </h2>
+      <Link href="https://marketplace.visualstudio.com/items?itemName=NextStep.nextstep"><a target="_blank">
       <button className={classes.codeBtn}> 
       Download VS Code Extension
       </button>
-      <button className={classes.npmBtn}>NPM Install Next-Step</button>
+      </a></Link>
+      <Link href="https://www.npmjs.com/package/next-step-metrics"><a target="_blank">
+      <button className={classes.npmBtn}>npm install Next-Step</button>
+      </a></Link>
        </div>
       </div>
       <div className={classes.mainImage}>

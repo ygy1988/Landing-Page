@@ -10,7 +10,8 @@
 }
 
 .person img {
-  height: 290px;;
+  height: 290px;
+  border-radius: 200px;
 }
 .teamContainer {
   display: flex;

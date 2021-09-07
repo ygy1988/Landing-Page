@@ -9,11 +9,12 @@ const SetupInsContainer = () => {
       <h2>SETUP INSTRUCTIONS</h2>
     </div>
     <div className={classes.container}>
-      <div className={classes.left}>
-        <SetupScreenshare />
-      </div>
       <div className={classes.right}>
-        <SetupWritten />
+      <SetupWritten />
+      </div>
+      <div className={classes.left}>
+        
+        <SetupScreenshare />
       </div>
     </div>
     </>

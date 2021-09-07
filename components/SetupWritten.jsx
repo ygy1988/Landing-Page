@@ -5,18 +5,18 @@ const SetupWritten = () => {
 
   
   <br />
-  <p>Step 1: Download the VS Code extension from the Extension Marketplace(link).</p>
+  <p>STEP 1: Download the VS Code extension from the Extension Marketplace(link).</p>
   <br />
-  <p>Step 2: Install the npm package by running <span>npm install next-step-metrics.</span></p>
+  <p>STEP 2: Install the npm package by running <span>npm install next-step-metrics.</span></p>
   <br />
-  <p>Step 3: Go to your _app.js file, and copy/paste the following commands:</p>
+  <p>STEP 3: Go to your _app.js file, and copy/paste the following commands:</p>
   <br />
   <p> --&gt; At the top of the file:</p>
   <p><span className={classes.centerText}>import &#123; reportWebVitals &#125; from &quot;next-step-npm&quot;</span></p>
   <p> --&gt; At the bottom of the file:</p>
   <p><span className={classes.centerText}>export  &#123; reportWebVitals &#125;</span></p>
   <br />
-  <p>Step 4: Create a file named <span>next-step.js</span> inside your pages/api folder and copy this: </p>
+  <p>STEP 4: Create a file named <span>next-step.js</span> inside your pages/api folder and copy this: </p>
   <br />
   <span className={classes.centerText}>
   <p>import nc from &quot;next-connect&quot;;</p>
@@ -29,9 +29,9 @@ const SetupWritten = () => {
   <p>export default handler;</p>
   </span>
   <br />
-  <p>Step 5: Start up your server and click on the NextStep button in the VS Code Status Bar.</p>
+  <p>STEP 5: Start up your server and click on the NextStep button in the VS Code Status Bar.</p>
   <br />
-  <p>Step 6: Optimize  your site and enjoy 😎</p>
+  <p>STEP 6: Optimize  your site and enjoy 😎</p>
   </div>;
 };
 
