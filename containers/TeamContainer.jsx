@@ -18,7 +18,7 @@ const TeamContainer = () => {
         <Person
           name="Lucas Taffo"
           work="Software Engineer"
-          linkedIn=" https://www.linkedin.com/in/lucastaffo/"
+          linkedIn="https://www.linkedin.com/in/lucastaffo"
           gitHub="https://github.com/lucastaffo"
           image="https://i.ibb.co/Kj8s4Kz/Screen-Shot-2021-09-02-at-5-01-30-PM.png"
           width="460px"
@@ -27,17 +27,17 @@ const TeamContainer = () => {
         <Person
           name="Simon Yu"
           work="Software Engineer"
-          linkedIn="LinkedIn"
-          gitHub="GitHub"
-          image="https://i.ibb.co/C0z3C51/simone.jpg"
+          linkedIn="https://www.linkedin.com/in/simon-yu-398442101"
+          gitHub="https://github.com/syu449"
+          image="https://i.ibb.co/kq4fTVB/simone.jpg"
           width="435px"
           height="396px"
         />
         <Person
           name="Kenny Shen"
           work="Software Engineer"
-          linkedIn="LinkedIn"
-          gitHub="GitHub"
+          linkedIn="https://www.linkedin.com/in/kenny-shen-ny"
+          gitHub="https://github.com/shenkenny"
           image="https://i.ibb.co/QfDVVhy/Screen-Shot-2021-09-07-at-3-17-40-PM.png"
           width="346px"
           height="309px"
