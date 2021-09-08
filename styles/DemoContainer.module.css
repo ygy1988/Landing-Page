@@ -1,7 +1,8 @@
 .demoContainer {
   display: flex;
   justify-content: space-evenly;
-  font-family: 'Karla' !important;
+  /* flex-wrap: wrap; */
+  font-family: "Karla" !important;
   text-align: justify;
   background: linear-gradient(to right, #e0e0e0, rgb(240, 240, 240));
   align-items: center;
@@ -18,13 +19,14 @@
 }
 
 @media screen and (max-width: 1112px) {
-  .demoContainer{
+  .demoContainer {
     display: flex;
     align-items: center;
     flex-direction: column;
 
     /* overflow: auto; */
-    height: 700px;
+    /* height: 700px; */
+    height: 100%;
   }
 
   .title {
