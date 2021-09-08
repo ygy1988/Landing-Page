@@ -10,6 +10,12 @@ const DemoScreenshare = () => {
         width="600px"
         height="289px"
       /> */}
+      <iframe
+        src="https://streamable.com/e/qte3e9"
+        width="1500px"
+        height="700px"
+        frameBorder="0"
+      ></iframe>
     </div>
   );
 };

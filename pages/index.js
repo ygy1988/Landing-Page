@@ -19,6 +19,7 @@ export default function Home() {
           content="VS Code Extension that prints out web vital metrics in your code editor"
         />
         <style>
+
           @import
           url(&apos;https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap&apos;);
           @import
@@ -27,6 +28,7 @@ export default function Home() {
           url(&apos;https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&display=swap&apos;);
           @import
           url(&apos;https://fonts.googleapis.com/css2?family=Inter&family=Yantramanav:wght@400&display=swap&apos;);
+
         </style>
       </Head>
       <Header />
@@ -39,23 +41,3 @@ export default function Home() {
   );
 }
 
-/* 
-
-HEADER COMPONENT
-
-TOP CONTAINER
-  TITLE & DESCRIPTION COMPONENT
-    INSTRUCTION & SETUP LINK COMPONENT
-
-DEMO CONTAINER
-  DEMO WRITTEN COMPONENT
-  SCREEN SHARE COMPONENT (?)
-
-SETUP INSTRUCTIONS CONTAINER
-  LEFT SIDE SCREENSHARE COMPONENT
-  SETUP INSTRUCTION WRITTEN COMPONENT
-
-TEAM CONTAINER
-  PERSON COMPONENT
-FOOTER COMPONENT
-*/

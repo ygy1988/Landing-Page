@@ -18,9 +18,8 @@
     width: 1000px;
   }
 
-  .container span {
-    margin: 0 !important;
-    color: #6cadeb;
+  .container span, .container a {
+    color: rgb(53, 165, 230);
   }
 
   .pHeader {
@@ -34,8 +33,4 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-  }
-
-  .container a {
-    color: #6cadeb;
   }
